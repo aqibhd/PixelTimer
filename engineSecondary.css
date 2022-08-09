@@ -1,0 +1,13 @@
+body{
+  background-color: rgba(0,0,0,0.0);
+}
+.time{
+    margin-top:10px;
+    color:#61234e;
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align:center;
+    transition:.5s;
+    cursor: pointer;
+    -webkit-app-region: drag
+  }

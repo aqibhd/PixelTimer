@@ -1,0 +1,89 @@
+body{
+  background-color:#ebfffb;
+  margin:0;
+}
+.navTitle{
+  background-color:#032535;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+  margin:0;
+  height:30px;
+  font-family: 'Press Start 2P', cursive;
+  color:white;
+  box-shadow: 2px 2px 5px #45454d;
+  -webkit-app-region: drag
+}
+.time{
+  margin-top:20px;
+  color:#61234e;
+  font-size:20px;
+  font-family: 'Press Start 2P', cursive;
+  text-align:center;
+  transition:.5s;
+  cursor: pointer;
+}
+.customColor{
+    position:absolute;
+    transform: translate(-50%,-60%);
+    top:60%;
+    left:50%;
+}
+.input{
+  width:200px;
+  height:40px;
+  background-color:transparent;
+  border:none;
+  font-size:15px;
+  text-align:center;
+  color:#61234e;
+  font-family: 'Press Start 2P', cursive;
+  transition:1s;
+}
+.input:focus{
+  outline: none;
+  transition:.2s;
+}
+ .footer{
+      position:absolute;
+      bottom:0;
+      left:50%;
+      transform: translate(-50%);
+      margin-bottom: 10px;
+     background-color:white;
+  }
+  .wrapper-footer{
+      font-size: 20px;
+      
+  }
+  i:hover{
+    cursor: pointer;
+  }
+  i:not(:first-child){
+    margin-left: 10px;
+}
+  .contain{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    top:40%;
+    left:50%;
+    border-radius:5px;
+    color:#0d3f67;
+    transition: .5s;
+}
+  .colorPalette{
+    display:flex;
+  }
+  .colors{
+    margin:10px;
+    height:15px;
+    width:15px;
+    border-radius:20%;
+    transition: .4s;
+  }
+  .colors:hover{
+    margin:5px;
+    height:20px;
+    width:20px;
+    transition: .2s;
+  }
